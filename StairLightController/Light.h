@@ -1,4 +1,14 @@
 
+/*
+ * Author "Guillermo Manzato<manzato@gmail.com>"
+ * 
+ * Handles the light behaviour:
+ *  1) When set to 'on', turn pin 'switchPin' HIGH and dim 'dimPin' to full brightness
+ *  2) After 'duration' ms dim it to 'lowDim' brightness
+ *  3) After 'lowDuration' dim it to off and  'switchPin' to LOW.
+ * 
+*/
+
 #ifndef Light_h
 #define Light_h
 

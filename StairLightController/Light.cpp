@@ -66,4 +66,3 @@ bool Light::compute() {
   return true;
 };
 
-
