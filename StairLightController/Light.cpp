@@ -1,4 +1,5 @@
 #include "Light.h"
+#include "Arduino.h"
 
 Light::Light(byte dimPin, byte switchPin, byte lowDim, unsigned long duration, unsigned long lowDuration) {
   this->dimPin = dimPin;
